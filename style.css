@@ -32,16 +32,16 @@ ul{
     font-weight: 350;
 }
 
-ul {
+ul li {
     cursor: pointer;
     padding: 8px 15px;
-    border-radius: 15px;
-    box-sizing: border-box;
+    border-radius: 20px;
+    font-weight: 400;
 }
 
 ul li:hover {
-    border: 1px white solid;
     transition: all 0.3s ease;
+    border: 1px white solid;
 }
 
 .main {
@@ -66,6 +66,11 @@ ul li:hover {
     font-size: 20px;
 }
 
+.paragraph :hover {
+    color: rgba(90,75,218,1);
+    font-weight: 200;
+}
+
 button {
     cursor: pointer;
     margin-top: 8px;
@@ -74,7 +79,15 @@ button {
     font-size: 19px;
     background-color: rgba(90,75,218,1);
     color: #FFFFFF;
-    border: none;
+    /* border: none; */
+}
+
+button:hover {
+    background-color: white;
+    color: rgba(90,75,218,1);
+    border: 1px solid rgba(90,75,218,1);
+    opacity: 1;
+    transition: all 0.3s ease;
 }
 
 .course-Details {
@@ -129,6 +142,14 @@ button {
     background-color: rgba(90,75,218,1);
     color: #FFFFFF;
     border: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgba(90,75,218,1);
+    border: 1px solid rgba(90,75,218,1);
+    opacity: 1;
+    transition: all 0.3s ease;
 }
 
 .footer {
