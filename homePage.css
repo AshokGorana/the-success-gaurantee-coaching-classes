@@ -11,13 +11,14 @@ body {
 }
 
 .navbar {
-    color: #1B1F3B;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 7px 7rem;
     border-bottom: 1px whitesmoke solid;
     box-shadow: 0px 5px 9px grey;
+    background-color: rgba(90,75,218,1);
 }
 
 .logo {
@@ -87,7 +88,7 @@ button {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 5rem;
     padding: 10px;
     margin-top: 2rem;
 }
@@ -99,11 +100,32 @@ button {
     font-size: 15px;
     padding: 5px;
     height: 20rem;
-    width: 20rem;
+    width: 17rem;
+    line-height: 25px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: rgb(242,241,236);
+    color: black;
 }
 
-.bank {
+.course-name {
     color: #222222;
+    font-size: 21px;
+}
+
+.description {
+    margin-top: 35px;
+    word-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: rgba(90,75,218,1);
+    color: #FFFFFF;
+    border: none;
 }
