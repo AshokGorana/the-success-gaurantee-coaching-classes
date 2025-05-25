@@ -10,6 +10,11 @@ body {
     background-color: #F5F5F5;
 }
 
+.logo {
+    width: 5rem;
+    background-color: rgba(90,75,218,1);
+}
+
 /* ---------- Mobile First Responsive Design ---------- */
 
 @media screen and (max-width: 1024px) {
