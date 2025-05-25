@@ -32,15 +32,16 @@ ul{
     font-weight: 350;
 }
 
-ul li {
+ul {
     cursor: pointer;
     padding: 8px 15px;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
-ul :hover{
-   background : rgba(90,75,218,1);
-   color: white;
+ul li:hover {
+    border: 1px white solid;
+    transition: all 0.3s ease;
 }
 
 .main {
@@ -102,10 +103,10 @@ button {
     height: 20rem;
     width: 17rem;
     line-height: 25px;
-    border: 2px black solid;
+    border: 2px rgba(90,75,218,1) solid;
     border-radius: 5px;
     background-color: rgb(242,241,236);
-    color: black;
+    color: rgba(90,75,218,1);
 }
 
 .course-name {
@@ -128,4 +129,8 @@ button {
     background-color: rgba(90,75,218,1);
     color: #FFFFFF;
     border: none;
+}
+
+.footer {
+    background-color: rgb(249, 248, 246);
 }
