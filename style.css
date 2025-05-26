@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Reddit Sans", "sans-serif";
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 200;
@@ -17,7 +17,7 @@ body {
 
 /* ---------- Mobile First Responsive Design ---------- */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .navbar {
     padding: 10px 2rem;
     flex-direction: column;
@@ -83,7 +83,7 @@ body {
     align-items: flex-start;
     width: 100%;
   }
-}
+} */
 
 /* ---------- Mobile First Responsive Design ---------- */
 
@@ -231,4 +231,16 @@ button:hover {
 
 .footer {
     background-color: rgb(249, 248, 246);
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    gap: 2rem;
+    border: 1px black solid;
+}
+
+.left-footer {
+  border: 1px black solid;
+}
+
+.right-footer {
+  border: 1px black solid;
 }
