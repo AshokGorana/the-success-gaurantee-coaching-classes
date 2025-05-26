@@ -16,6 +16,7 @@ body {
 
 .main {
   flex: 1;
+  overflow: auto;
 }
 
 .logo {
@@ -25,6 +26,9 @@ body {
 
 .navbar {
     display: flex;
+    position: sticky;
+    top: 0;
+    overflow: auto;
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
@@ -144,7 +148,9 @@ button:hover {
 
 .grid-container {
     display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
     gap: 5rem;
     padding: 10px;
     margin-top: 2rem;
@@ -196,9 +202,10 @@ button:hover {
 }
 
 .footer {
+  overflow: auto;
     display: grid;
     grid-template-columns: repeat(2, 30rem);
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 2rem;
     background: rgb(237, 235, 226);
     color: black;
@@ -208,10 +215,11 @@ button:hover {
 
 .left-footer {
   /* border: 1px black solid; */
+  margin-left: 3rem;
 }
 
 .left-footer img {
-    width: 5rem;
+    width: 4rem;
 }
 
 .left-footer1 {
