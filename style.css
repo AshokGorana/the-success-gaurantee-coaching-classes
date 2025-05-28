@@ -135,6 +135,7 @@ button:hover {
     border: 1px solid rgba(90,75,218,1);
     opacity: 1;
     transition: all 0.3s ease;
+    transform: scale(1.1);
 }
 
 .course-Details {
@@ -202,7 +203,6 @@ button:hover {
 }
 
 .footer {
-  overflow: auto;
     display: grid;
     grid-template-columns: repeat(2, 30rem);
     justify-content: space-between;
@@ -211,6 +211,7 @@ button:hover {
     color: black;
     padding: 20px;
     border-top: #222222;
+    overflow: hidden;
 }
 
 .left-footer {
@@ -230,7 +231,7 @@ button:hover {
 .left-footer span {
   margin-left: 1rem;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 95%;
 }
 .right-footer {
   /* border: 1px black solid; */
