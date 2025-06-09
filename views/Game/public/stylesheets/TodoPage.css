@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: black;
+  font-family: verdana;
+}
+
+:root{
+  --color : oklch(64.5% .246 16.439);
+}
+
+.box {
+    /* border: 2px white solid; */
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+}
+
+span{
+    color: var(--color);
+}
+
+.TodoBox{
+    width: 600px;
+    height: 6rem;
+    /* border: 2px white solid; */
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 550px;
+    height: 50px;
+    border-radius: 1rem;
+    border:2px rgb(196, 181, 181) solid;
+}
+
+button {
+    margin-left: 5px;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: var(--color);
+    border: none;
+    cursor: pointer;
+}
+
+.todo {
+    color: white;
+    width: 600px;
+    /* border: 2px white solid; */
+    margin-top: 1rem;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 5px;
+}
+
